@@ -7,17 +7,6 @@ const Hero = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setMousePosition({
-        x: (e.clientX / window.innerWidth - 0.5) * 20,
-        y: (e.clientY / window.innerHeight - 0.5) * 20
-      });
-    };
-
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
 
   const socialLinks = [
     { icon: <FaGithub size={24} />, url: 'https://github.com/nikitabg07', label: 'GitHub' },
