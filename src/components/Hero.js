@@ -1,12 +1,11 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Hero = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleMouseMove = (e) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaFigma } from 'react-icons/fa';
-import { SiMongodb, SiFirebase, SiTailwindcss, SiReact, SiCanva } from 'react-icons/si';
+import { SiMongodb, SiFirebase, SiTailwindcss, SiCanva } from 'react-icons/si';
 import { TbBrandCpp } from 'react-icons/tb';
 import { BiLogoPython } from 'react-icons/bi';
 

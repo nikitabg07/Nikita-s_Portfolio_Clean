@@ -8,4 +8,4 @@ export const emailConfig = {
 };
 
 // Email validation regex
-export const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+export const emailRegex = /^[\w-]+(?:\.[\w-]+)*@(?:[\w-]+\.)+[a-zA-Z]{2,7}$/;
