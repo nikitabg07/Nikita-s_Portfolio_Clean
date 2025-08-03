@@ -6,21 +6,21 @@ const projects = [
     title: "VoiceA – Inclusive Educational Platform",
     description: "A web platform to support visually impaired students with accessible learning features including quizzes, voice book readers, and dashboards.",
     tech: "React.js, Node.js, Express.js, MongoDB, TTS APIs",
-    image: "/project/voicea.png",
+    image: process.env.PUBLIC_URL + "/project/voicea.png",
     link: "#"
   },
   {
     title: "WanderLust – Full Stack Travel Booking Platform",
     description: "A comprehensive travel booking platform with hotel reservations, flight bookings, and destination guides. Features include user authentication, real-time availability, and secure payment processing.",
     tech: "React.js, Node.js, Express.js, MongoDB, Stripe API, Mapbox",
-    image: "/project/smallbizz.png",
+    image: process.env.PUBLIC_URL + "/project/smallbizz.png",
     link: "#"
   },
   {
     title: "Crops Classification with Recommendation System",
     description: "A machine learning-based system to classify crop types based on soil and environmental conditions, with recommendations for farmers.",
     tech: "Python, Pandas, scikit-learn, Jupyter Notebook",
-    image: "/project/crop_detection_system.png",
+    image: process.env.PUBLIC_URL + "/project/crop_detection_system.png",
     link: "#"
   },
   {

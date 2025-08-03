@@ -3,46 +3,46 @@ import { motion } from 'framer-motion';
 
 const certificates = [
   {
-    img: "/certificates/aws_certificate.jpg",
+    img: process.env.PUBLIC_URL + "/certificates/aws_certificate.jpg",
     desc: "AWS Academy Cloud Foundations - Certificate of Completion"
   },
   {
-    img: "/certificates/infosys_react_native.jpg",
+    img: process.env.PUBLIC_URL + "/certificates/infosys_react_native.jpg",
     desc: "Infosys Springboard - React Native Projects"
   },
   {
-    img: "/certificates/zensar_employability.jpg",
+    img: process.env.PUBLIC_URL + "/certificates/zensar_employability.jpg",
     desc: "Zensar RPG Foundation - Employability Skill Development"
   },
   {
-    img: "/certificates/google_ai_workshop.jpg",
+    img: process.env.PUBLIC_URL + "/certificates/google_ai_workshop.jpg",
     desc: "Google Workspace - Bring AI to Work Workshop"
   },
   {
-    img: "/certificates/nxtwave_ai.jpg",
+    img: process.env.PUBLIC_URL + "/certificates/nxtwave_ai.jpg",
     desc: "NxtWave - AI for Students: Build Your Own Generative AI Model"
   }
 ];
 
 const achievements = [
   {
-    img: "/achievements/fintank_collage.jpg",
+    img: process.env.PUBLIC_URL + "/achievements/fintank_collage.jpg",
     desc: "FinTank 2024 - Team Collaboration & Participation"
   },
   {
-    img: "/achievements/innov_era_certificate.jpg",
+    img: process.env.PUBLIC_URL + "/achievements/innov_era_certificate.jpg",
     desc: "INNOV-ERA National Hackathon Finalist"
   },
   {
-    img: "/achievements/campus_ambassador_offer.jpg",
+    img: process.env.PUBLIC_URL + "/achievements/campus_ambassador_offer.jpg",
     desc: "Campus Ambassador Offer - E-Cell IIT Bombay"
   },
   {
-    img: "/achievements/deloitte_certificate.jpg",
+    img: process.env.PUBLIC_URL + "/achievements/deloitte_certificate.jpg",
     desc: "Deloitte Technology Job Simulation Completion"
   },
   {
-    img: "/achievements/gdg solution.jpg",
+    img: process.env.PUBLIC_URL + "/achievements/gdg solution.jpg",
     desc: "GDG Solution Certificate - Google Developer Groups"
   }
 ];

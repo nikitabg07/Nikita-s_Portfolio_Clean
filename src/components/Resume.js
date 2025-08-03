@@ -21,7 +21,7 @@ const Resume = () => {
               Click the button below to download my resume and know more about my academic and technical background.
             </p>
             <a
-              href="/NG_Resume (2).pdf"
+              href={process.env.PUBLIC_URL + "/NG_Resume (2).pdf"}
               target="_blank"
               rel="noopener noreferrer"
               download="NG_Resume.pdf"
