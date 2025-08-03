@@ -16,7 +16,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL || '/'}>
+    <Router>
       <div className="min-h-screen bg-white transition-colors duration-300">
         <Navbar />
         
